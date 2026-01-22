@@ -11,7 +11,7 @@ This project is a FastAPI-based webhook handler for processing solar panel leads
 
 1.  **Clone the repository** (if you haven't already):
     ```bash
-    git clone [<repository-url>](https://github.com/Kamillendampf/webhook)
+    git clone https://github.com/Kamillendampf/webhook
     cd Webhook1
     ```
 
@@ -88,4 +88,5 @@ If these conditions are not met, the webhook returns `{"message": "Contact not v
 
 - The application sends processed leads to an external API (`https://contactapi.static.fyi/lead/receive/fake/haerle/`).
 - `ngrok` is included in the project directory, potentially for exposing the local server to the internet.
+
 
